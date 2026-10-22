@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+background-color: rgb(116, 153, 177);
+color: rgb(17, 3, 3);
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+}
+
+
+
+img{
+    width: 250px;
+    border-radius: 100%;
+    border-width: 5px;
+    border-style:hidden;
+    float:none;
+}
+
+h1, h2, h3 {
+    color: rgb(2, 1, 72);
+}
+
+
+h1{
+    font-size: 38px;
+    margin-bottom:10px ;
+}
+
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    color: rgb(15, 36, 61);
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecario{
+    background-color: rgb(14, 10, 69);
+    color: rgb(210, 211, 225);
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+
+
+.cabecario h1{
+    color: rgb(204, 207, 225);
+    font-weight: 1000;
+}
+.etiqueta{
+margin-bottom: 5px;
+color: rgb(236, 236, 236);
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 5px;
+}
+
+.subtitulo{
+    max-width: 700px;
+}
+
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+
+}
+
+.menu-lista li{
+    padding: 10px 14px;
+    background-color: rgb(143, 156, 199);
+    display:inline-block;
+    border: 1px solid rgb(40, 6, 99);
+    border-radius: 60%;
+}
+
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: rgb(12, 0, 62);
+
+    
+    border: 1px solid rgb(20, 73, 220);
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.secao{
+    padding: 72px 0;
+}
+
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid rgb(12, 8, 46);
+    border-radius: 5px;
+    
+}
+
+
+.card{
+    padding: 24px;
+    background-color: rgb(211, 225, 238);
+    border: 1px solid rgb(41, 40, 102);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.00);
+}
+
+.lista-tecnologias{
+    list-style: nome;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lista-tecnologias li{
+    padding: 10px 14px;
+    background-color: rgb(205, 225, 255);
+    display:inline-block;
+    border: 1px solid rgb(251, 251, 251);
+    border-radius: 60%;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color:rgb(77, 99, 136);
+    text-align: center;
+}
+
+.rodape address{
+    font-size: normal;
+}
+
+
+
+
+
